@@ -11,25 +11,33 @@
 <!--        </packages>-->
 <!--    </test>-->
 
-    <test name="login">
+    <test name="Mobile create">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.academy.automationpractice.IncorrectLoginTests" />
+            <class name="com.academy.selenide.MobileTests" />
         </classes>
     </test>
 
-    <test name="mixed">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="com.academy.automationpractice.MixedTests" />
-        </classes>
-    </test>
 
-    <test name="categorywomen">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="com.academy.automationpractice.CategoryWomen" />
-        </classes>
-    </test>
+<!--    <test name="login">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.academy.automationpractice.IncorrectLoginTests" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="mixed">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.academy.automationpractice.MixedTests" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="categorywomen">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.academy.automationpractice.CategoryWomen" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
