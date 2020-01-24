@@ -1,0 +1,8 @@
+#login,password,expected_error_message
+user1@gmail.com,user1,Authentication failed.
+stovbenko@gmail.com,123456,Authentication failed.
+user1@gmail.com,Lamborgini21,Authentication failed.
+stovbenko@gmail.com,,Password is required.
+,Lamborgini21,An email address required.
+,,An email address required.
+126,,Invalid email address.
