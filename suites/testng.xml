@@ -19,12 +19,12 @@
     </test>
 
 
-<!--    <test name="login">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <classes>-->
-<!--            <class name="com.academy.automationpractice.IncorrectLoginTests" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="login">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.academy.automationpractice.IncorrectLoginTests" />
+        </classes>
+    </test>
 
 <!--    <test name="mixed">-->
 <!--        <parameter name="browser" value="firefox"/>-->
